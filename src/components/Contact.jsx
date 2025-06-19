@@ -1,44 +1,39 @@
 const Contact = () => {
   return (
     <section id="contact" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4 max-w-2xl">
-        <h2 className="text-3xl font-bold text-center mb-12 font-serif">Get In Touch</h2>
-        <form className="space-y-6">
-          <div>
-            <label htmlFor="name" className="block mb-2 font-medium">Name</label>
-            <input
-              type="text"
-              id="name"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="email" className="block mb-2 font-medium">Email</label>
-            <input
-              type="email"
-              id="email"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="message" className="block mb-2 font-medium">Message</label>
-            <textarea
-              id="message"
-              rows="5"
-              className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-              required
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-          >
-            Send Message
-          </button>
-        </form>
+      <div class="container px-5 my-5">
+    <div class="text-center mb-5">
+      <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Contact</span></h1>
+    </div>
+
+    <h2 class="text-secondary fw-bolder mb-4">Hubungi Saya Disini 🤙</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="fs-4 text-body">Anda dapat menghubungi saya melalui email atau Whatsapp.</p>
+        <p class="fs-4 text-body">Sampai jumpa di sisi lain.</p>
       </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center">
+        <div>
+          <div class="mb-2">
+            <a href="mailto:pannji22revolusio@students.amikom.ac.id" class="text-body fs-5 text-decoration-none">
+              <i class='fs-4 bx bx-envelope' ></i> pannji22revolusio@students.amikom.ac.id</a>
+          </div>
+          <div class="mb-2">
+            <a href="https://wa.me/6288215797360" target="_blank" class="text-body fs-5 text-decoration-none">
+              <i class='fs-4 bx bxl-whatsapp' ></i> (+62) 882-1579-7360 </a>
+          </div>
+          <div class="mb-2">
+            <a href="https://www.instagram.com/sipanjirevo/" target="_blank" class="text-body fs-5 text-decoration-none">
+              <i class='fs-4 bx bxl-instagram' ></i> @sipanjirevo </a>
+          </div>
+          <div class="mb-2">
+            <a href="https://www.linkedin.com/in/panji-revolusioner/" target="_blank" class="text-body fs-5 text-decoration-none">
+              <i class='fs-4 bx bxl-linkedin' ></i> @panji-revolusioner </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     </section>
   );
 };

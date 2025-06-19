@@ -49,3 +49,13 @@ body {
 .dark-mode-toggle i {
   font-size: 1.2rem;
 }
+
+
+.footer {
+  background-color: var(--footer-bg) !important;
+}
+
+.card {
+  background-color: var(--card-bg);
+  transition: background-color 0.3s ease;
+}

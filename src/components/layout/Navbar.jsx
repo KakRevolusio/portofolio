@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import DarkModeToggle from './DarkModeToggle'; 
+
 
 const Navbar = () => {
   return (
@@ -26,17 +26,6 @@ const Navbar = () => {
         {/* Nav Items */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto me-3">
-            <li className="nav-item mx-1">
-              <NavLink 
-                className={({ isActive }) => 
-                  `nav-link px-3 py-2 rounded ${isActive ? 'active bg-primary' : ''}`
-                }
-                to="/"
-                end
-              >
-                <i className="fas fa-home me-1"></i> Home
-              </NavLink>
-            </li>
             <li className="nav-item mx-1">
               <NavLink 
                 className={({ isActive }) => 
@@ -70,9 +59,7 @@ const Navbar = () => {
           </ul>
           
           {/* Dark Mode Toggle */}
-          <div className="d-flex align-items-center">
-            <DarkModeToggle />
-          </div>
+         
         </div>
       </div>
     </nav>

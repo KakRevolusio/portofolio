@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from "../context/ThemeContext";
-import profileImage from '../assets/images/profile.jpg'; // Ganti dengan path gambar Anda
+import profileImage from '../assets/images/profile.webp'; // Ganti dengan path gambar Anda
 
 const Hero = () => {
   const { darkMode } = useTheme(); // Menggunakan context theme
@@ -19,7 +19,7 @@ const Hero = () => {
           {/* Bagian Teks */}
           <div className="col-lg-6 order-lg-1 order-2 mt-lg-0 mt-4">
             <h1 className="display-4 fw-bold mb-3">
-              Hi, I'm <span className="text-warning">John Doe</span>
+              Hi, I'm <span className="text-warning">Panji Revolusioner.S</span>
             </h1>
             <p className="lead mb-4">
               Professional <span className="fw-bold">Frontend Developer</span> with 3+ years of experience building modern web applications
